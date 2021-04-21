@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <EditText
+                android:maxLength="30"
+                android:hint="Name"
+                android:id="@+id/addName"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"/>
+            <EditText
+                android:maxLength="30"
+                android:hint="SĐT"
+                android:id="@+id/addPhoneNumber"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"/>
+            <Button
+                android:layout_gravity="center_horizontal"
+                android:text="Thêm"
+                android:id="@+id/btnAddPhoneBook"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </RelativeLayout>
+</layout>
